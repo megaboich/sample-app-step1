@@ -1,0 +1,17 @@
+﻿{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "removeComments": false,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "pretty": true
+    }
+}
