@@ -28,7 +28,11 @@ module.exports = {
         new HtmlWebpackPlugin()
     ],
 
+    // Disable verbose webpack warnings about big-sized chunks
     performance: {
         hints: false
     },
+
+    // Turn on sourcemaps
+    devtool: 'source-map',
 }
