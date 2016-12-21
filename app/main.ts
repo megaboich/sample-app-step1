@@ -1,3 +1,7 @@
+import 'app/styles/normalize.css'
+import 'app/styles/skeleton.css'
+import 'app/styles/custom.css'
+
 import * as $ from 'jquery'
 
 import { Calculator } from 'app/calculator'
@@ -5,7 +9,7 @@ import { Calculator } from 'app/calculator'
 const markup = `
 <div> 
     <h2>Hello, I am the app v 0.2</h2>
-    <button id='btn'>Click me</button>
+    <button class="button" id='btn'>Click me</button>
     <div id='place-holder' />
 </div>
 `;
