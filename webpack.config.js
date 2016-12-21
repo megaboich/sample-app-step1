@@ -7,6 +7,10 @@ module.exports = {
 
     resolve: {
         extensions: ['.ts', '.js'],
+        modules: [
+            __dirname,
+            "node_modules"
+        ],
     },
 
     output: {
