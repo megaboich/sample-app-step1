@@ -23,4 +23,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin()
     ],
+
+    performance: {
+        hints: false
+    },
 }
